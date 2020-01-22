@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+
+}
+
+header{
+
+    padding-top: 10%;
+    padding-right: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    height: fit-content;
+    
+}
+input{
+    margin-top: 3em;
+    border: none;
+    font-size:x-large;
+    text-align: center;
+    height: 2em;
+}
+button{
+    margin-top: 2em;
+}
+#hearts{
+    margin-left: 2em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+}
+.fas{
+    margin: 7px;
+    color: grey;
+    font-size: 3em;
+}
+.alive{
+    color: red
+}
+aside{
+    position: absolute;
+    top: 15%;
+    border: 1px solid black;
+    height: 70%;
+    right: 2em;
+    padding: 1em;
+}
+.blank{
+    display: inline;
+}
+footer{
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+ul{
+    display: flex;
+    flex-flow: column wrap;
+    height: 80%;
+
+}
+li{
+    font-size: 2em;
+}
